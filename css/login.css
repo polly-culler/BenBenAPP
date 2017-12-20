@@ -1,0 +1,152 @@
+/*html{
+	width: 347px;
+	height: 637px;
+}*/
+body{
+	/*width: 100vw;*/
+	/*height: 100vh;*/
+	overflow: hidden;
+    margin: 0;
+    padding: 0;
+     font-family: 'Roboto Condensed', sans-serif;
+}
+.login{
+    width: 100vw;
+    height: 93vh;
+    background: url(../img/login/login2.jpg) no-repeat;
+    background-size: 100%,100%;
+    position: relative;
+}
+/*col1*/
+.col1{
+    position: absolute;
+    top: 15vh;
+}
+    .title{
+        width: 100vw;
+        font-size: 2.17em;
+        color: #ffffff;
+        float: left;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    input{
+        color: #ffffff;
+        width: 78vw;
+        height: 7vh;
+        border-radius: 10px;
+        border:none;
+        display: block;
+        margin: auto;
+        background-color: rgba(252,250,250,0.52);
+    }
+    /*input placeholder color*/
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: #ffffff; opacity:1;
+        padding-left: 4vw;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: #ffffff; opacity:1;
+        padding-left: 4vw;
+    }
+    input:-ms-input-placeholder{
+        padding-left: 4vw;
+        color: #ffffff; opacity:1;
+    }
+    input::-webkit-input-placeholder{
+        padding-left: 4vw;
+        color: #ffffff; opacity:1;
+    }
+    button{
+        width: 78vw;
+        height: 7vh;
+        border-radius: 10px;
+        border: 1px solid rgba(252,250,250,0.52);
+        display: block;
+        margin: auto;
+        background-color: rgba(255,255,255,0.17);
+        color: #ffffff;
+        font-size: 16px;
+    }
+    #userName,#password,button{
+        margin-top: 10px;
+    }
+    #forgot{
+        font-size: 13px;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        color: #ffffff;
+    }
+    #getHelp,.signUp,a{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+    }
+/*col2*/
+.col2{
+    position: absolute;
+    top: 65vh;
+}
+    hr{
+        position: relative;
+        width: 33vw;
+        height: 2px;
+        background-color: rgba(255,255,255,0.9);
+        border-width:2px;
+        border: none;
+        margin-left: 11vw;
+        z-index: 10000;
+    }
+    #hr1{
+        float: left;
+    }
+    #hr2{
+        float: right;
+    }
+    #or{
+        position: absolute;
+        z-index: 15000;
+        left: 54%;
+        color: #ffffff;
+        font-size: 14px;
+    }
+    .loginWithQQ img,
+    .loginWithWeibo img,
+    .loginWithWeChat img{
+        position: absolute;
+
+        float: left;
+    }
+
+    .loginWithQQ img{
+        width: 5vw;
+        height: 3vh;
+        top: 5vh;
+        left: 30vw;
+    }
+    .loginWithWeibo img{
+        width: 5vw;
+        height: 5vh;
+        left: 46vw;
+        top: 4vh;
+    }
+    .loginWithWeChat img{
+        width: 4vw;
+        height: 4vh;
+        top: 5vh;
+        left: 60vw;
+    }
+/*底部*/
+.footer{
+    width: 100%;
+    height: 7vh;
+    background: rgba(123,200,168,0.8);
+    box-shadow: 2px 0 0 0 #eee;
+    /*margin-bottom: 0px;*/
+    position: absolute;
+    top: 93vh;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}

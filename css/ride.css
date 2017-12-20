@@ -1,0 +1,32 @@
+.ui.grid .column>.ui.segment:only-child {
+    margin: -5vw;
+}
+@media only screen and (max-width: 991px)
+
+.ui.page.grid {
+     padding: 0;
+}
+.ui.grid>.column {
+     padding: 0;
+}
+.ui.menu {
+    z-index: 15000;
+    position: fixed;
+    top: 7vh;
+}
+.ui.segment {
+    webkit-box-shadow: 0 0 0 0px rgba(0,0,0,.1);
+    box-shadow: 0 0 0 0px rgba(0,0,0,.1);
+    padding: 0em;
+    margin-left: -5vw;
+}
+ul{
+    margin-top: 7.5vh;
+}
+.ui.menu .active.item {
+    box-shadow: none;
+    border-bottom: 2px solid #76DEA3;
+}
+.ui.menu .item {
+    padding: 1.83vh 17.5vw;
+}

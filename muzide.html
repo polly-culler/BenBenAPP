@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+
+    <!--modal.css-->
+    <link rel="stylesheet" href="css/modal.css" />
+
+    <!-- user.css -->
+    <link rel="stylesheet" type="text/css" href="css/user.css">
+
+    <!-- 奔奔的字体 -->
+    <link href='http://fonts.font.im/css?family=Roboto+Condensed:400,300italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <!-- modal 页面 banner+footer body需修改 -->
+    <!--
+        mian div
+    -->
+    <div class="contain">
+       <!--banner-->
+       <div class="banner">
+          <p>木子de余生梦</p>
+          <div id="user-add">
+            <a href="userAdd.html"><img src="img/user/user-add.png"></a>
+          </div>
+          <div id="setting">
+            <a href="setting.html"><img src="img/user/setting.png"></a>
+          </div>
+      </div>
+      <!--body-->
+      <div class="body">
+        <div class="userBody">
+            <div class="user">
+                <div class="user-photo">
+                    <img src="img/logo/1.png">
+                </div>
+                <div class="user-about">
+                    <div class="user-about-col1">
+
+                        <span class="user-post-num">
+                            1
+                        </span>
+                        <span class="user-follower-num">
+                            230
+                        </span>
+                        <span class="user-following-num">
+                            223
+                        </span>
+                    </div>
+                    <div class="user-about-col2">
+                        <span class="user-post">
+                            帖子
+                        </span>
+                        <span class="user-follower">
+                            关注者
+                        </span>
+                        <span class="user-following">
+                            关注用户
+                        </span>
+                    </div>
+                </div>
+            <div class="editProfile">
+              <p>编辑个人主页</p>
+            </div>
+            </div>
+          <!-- <div class="" id="">
+            <div class="user-banner">
+              <div class="user-post-detail">
+                <img src="img/user/detail(2).png" onclick="changeImg1()" id="user-post-detail">
+              </div>
+              <div class="user-post-like">
+                <img src="img/user/like.png" onclick="changeImg2()" id="user-post-like">
+              </div>
+            </div>
+            <div class="user-show">
+              <div class="user-card">
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                </ul>
+              </div>
+            </div>
+          </div> -->
+          <!-- use detail -->
+           <div class="box">
+            <div class="top" id="top">
+                <span class="action" ><div id="detail" onclick="changeImg1()">
+                  <img src="img/user/detail(2).png" id="user-post-detail">
+                </div></span>
+                <span >
+                  <div id="like" onclick="changeImg2()">
+                    <img src="img/user/like.png" id="user-post-like">
+                  </div>
+                  </span>
+            </div>
+            <div class="bottom" id="bottom">
+                <div class="show">
+                  <ul>
+                    <li><img src="img/body/chunxilu.jpg"></li>
+                    <li><img src="img/body/dali.jpg"></li>
+                    <li><img src="img/body/dali.jpg"></li>
+                    <li><img src="img/body/chunxilu.jpg"></li>
+                  </ul>
+                </div>
+              <div>
+                <ul>
+                  <li><img src="img/body/chunxilu.jpg"></li>
+                    <li><img src="img/body/dali.jpg"></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!--footer-->
+      <div class="footer">
+        <!-- find logo -->
+        <div class="findLogo">
+         <a href="index.html">
+            <img src="img/footer/find.png" id="img1" />
+         </a>
+        </div>
+        <!--ride Logo-->
+        <div class="rideLogo">
+         <a href="ride.html">
+            <img src="img/footer/ride.png"  id="img2">
+         </a>
+        </div>
+         <!-- add Logo-->
+         <div class="addLogo">
+            <a href="add.html">
+                <img src="img/footer/add.png" id="img3"/>
+             </a>
+         </div>
+         <!-- travel Logo-->
+         <div class="travelLogo">
+            <a href="travel.html">
+                <img src="img/footer/travel.png"  id="img4"/>
+            </a>
+         </div>
+         <!-- user Logo-->
+         <div class="userLogo">
+            <a href="user.html">
+                <img src="img/footer/user(2).png" id="img5"/>
+            </a>
+         </div>
+     </div>
+    </div>
+
+<!--jquery-->
+<script src="js/jquery.js"></script>
+
+<!-- modal.js -->
+<script src="js/modal.js"></script>
+
+<!-- user.js -->
+<script src="js/user.js"></script>
+
+</body>
+</html>

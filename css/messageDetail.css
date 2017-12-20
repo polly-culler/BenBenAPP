@@ -1,0 +1,97 @@
+.banner img{
+    width: 8vw;
+    height: 4.5vh;
+    margin-left: -170vw;
+    margin-top: 1vh;
+}
+.banner p{
+    width: 72vw;
+    margin-left: 11vw;
+    float: left;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+// @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+$green: #86BB71;
+$blue: #94C2ED;
+$orange: #E38968;
+$gray: #92959E;
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.chat-history ul{
+  width: 100vw;
+  list-style: none;
+  // margin-left: 3vw;
+  -webkit-padding-start: 0px;
+  -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+
+.chat{
+  background: #eee;
+  margin-bottom: 10vh;
+}
+
+
+.chat .chat-history .message {
+    color: #2c2c2c;
+    padding: 1vh 2vh;
+    line-height: 26px;
+    font-size: 16px;
+    margin-left: 5vw;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    width: 80vw;
+    background: #ffffff;
+    // position: relative;
+}
+.chat .chat-history .other-message {
+    background: #76DEA3;
+}
+
+.chat-message{
+  position: fixed;
+  top: 94vh;
+  width: 100vw;
+  background: #ffffff;
+}
+.chat .chat-message textarea {
+    width: 80vw;
+    float: left;
+    border: 2px solid #76DEA3;
+    padding: 1vw 1vh;
+    font: 14px/22px "Lato", Arial, sans-serif;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    resize: none;
+}
+.message-data-time{
+  // width: 100vw;
+  // text-align: center;
+  font-size: 0.8em;
+  margin-left: 14vw;
+  margin-right: 23vw;
+}
+.message-data-name{
+  text-align: left;
+  font-size: 0.83em;
+}
+.fa{
+  color: #76DEA3;
+}
+button{
+  width: 13vw;
+  margin-top: 1vh;
+  margin-left: 1vw;
+  background-color: #76DEA3;
+  border-width: 0px;
+  color: white;
+  border-radius: 10px;
+}

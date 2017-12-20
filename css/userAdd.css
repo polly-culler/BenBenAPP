@@ -1,0 +1,69 @@
+
+.banner img{
+    width: 8vw;
+    height: 4.5vh;
+    margin-left: -170vw;
+    margin-top: 1vh;
+}
+.banner p{
+    width: 72vw;
+    margin-left: 11vw;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+
+.body p{
+    margin-left: 3vw;
+    padding-top: 1.5vh;
+    font-size: 0.97em;
+    font-weight: bold;
+}
+.userAddDetail{
+    width: 95vw;
+    margin: auto;
+    /*border: 1px solid red;*/
+    height: 8vh;
+
+}
+ul{
+    list-style: none;
+    margin-left: -10vw;
+    margin-top: -1vh;
+}
+ul li{
+    /*float: left;*/
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.userAddDetail img{
+    position: absolute;
+    margin-top: 0.3vh;
+    margin-left: 2vw;
+    float: left;
+    width: 13.5vw;
+    height: 7.5vh;
+    border-radius: 50%;
+}
+.userAddDetail span{
+    width: 50vw;
+    position: absolute;
+    top: 2.5vh;
+    left: 22vw;
+    /*background: grey;*/
+}
+.userAddDetail button{
+    width: 26vw;
+    height: 4vh;
+    position: absolute;
+    left: 66vw;
+    top: 2vh;
+    font-size: 0.5em;
+    font-weight: bold;
+    border-width: none;
+    background-color: #ffffff;
+    border: 1px solid rgb(20,208,160);
+    color: rgb(20,208,160);
+}

@@ -1,0 +1,114 @@
+.banner{
+  // background: #ffffff;
+  z-index: 15000;
+}
+.banner img{
+    width: 8vw;
+    height: 4.5vh;
+    margin-left: -170vw;
+    margin-top: 1vh;
+}
+.banner p{
+    width: 72vw;
+    margin-left: 15vw;
+    float: left;
+}
+.body{
+  margin-top: 0vh;
+}
+a{
+  text-decoration: none;
+}
+a img{
+
+}
+
+/*body*/
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+$green: #86BB71;
+$blue: #94C2ED;
+$orange: #E38968;
+$gray: #92959E;
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container{
+  margin: 0 auto;
+  width: 100vw;
+  border-radius: 5px;
+}
+.people-list{
+  width: 30vw;
+  float: left;
+}
+.people-list .search{
+  background: white;
+  position: fixed;
+   z-index: 15000;
+  margin-top: 7vh;
+}
+.people-list input {
+  border-radius: 3px;
+  border: 2px solid #76DEA3;
+  padding: 9px;
+  color: black;
+   background: #ffffff;
+  width: 80vw;
+  position: relative;
+  margin-left: 7vw;
+  font-size: 14px;
+
+}
+
+/* .people-list .fa-search {
+  position: relative;
+  left: -25px;
+} */
+
+.people-list ul {
+  list-style: none;
+  position: absolute;
+  padding: 20px;
+  height: 770px;
+  top: 10vh;
+  z-index: 10000;
+}
+
+/* .clearfix{
+  padding-bottom: 20px;
+} */
+
+.people-list img {
+  float: left;
+  width: 14.1vw;
+  height: 8vh;
+  border-radius: 50px;
+  position: relative;
+}
+
+.people-list .about {
+  float: left;
+  padding-left: 8px;
+  /* margin-top: 19px; */
+}
+
+.people-list .status {
+  color: #92959E;
+  padding-top: 5vh;
+}
+
+
+/*人的名字*/
+.name{
+	color: black;
+  width: 50vw;
+  position: absolute;
+  /* top: 2vh; */
+  padding-top: 2vh;
+}
+
+

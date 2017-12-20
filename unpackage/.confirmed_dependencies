@@ -1,0 +1,60 @@
+{
+  "index.html": {
+    "refer": [
+      "ride.html",
+      "travel.html",
+      "add.html",
+      "user.html"
+    ],
+    "resources": [
+      "css/modal.css",
+      "img/footer/ride.png",
+      "img/footer/user.png",
+      "img/footer/travel.png",
+      "css/find.css",
+      "js/modal.js",
+      "img/footer/add.png",
+      "js/jquery.js",
+      "img/footer/find(2).png"
+    ]
+  },
+  "ride.html": {
+    "refer": [
+      "add.html",
+      "index.html",
+      "travel.html",
+      "user.html"
+    ],
+    "resources": []
+  },
+  "add.html": {
+    "refer": [
+      "travel.html",
+      "ride.html",
+      "user.html",
+      "add.html",
+      "index.html"
+    ],
+    "resources": []
+  },
+  "user.html": {
+    "refer": [
+      "index.html",
+      "ride.html",
+      "add.html",
+      "travel.html"
+    ],
+    "resources": [
+      "ride.html"
+    ]
+  },
+  "travel.html": {
+    "refer": [
+      "user.html",
+      "ride.html",
+      "add.html",
+      "index.html"
+    ],
+    "resources": []
+  }
+}

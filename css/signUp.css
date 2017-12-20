@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+     font-family: 'Roboto Condensed', sans-serif;
+}
+.signUp{
+	width: 100vw;
+    height: 93vh;
+    background: url(../img/login/login2.jpg) no-repeat;
+    background-size: 100%,100%;
+    position: relative;
+}
+.sig1{
+	position: absolute;
+    top: 15vh;
+}
+    .title{
+        width: 100vw;
+        font-size: 2.17em;
+        color: #ffffff;
+        float: left;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    input{
+        color: #ffffff;
+        width: 78vw;
+        height: 7vh;
+        border-radius: 10px;
+        border:none;
+        display: block;
+        margin: auto;
+        background-color: rgba(255,255,255,0.52);
+    }
+        /*input placeholder color*/
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: #ffffff; opacity:1;
+        padding-left: 4vw;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: #ffffff; opacity:1;
+        padding-left: 4vw;
+    }
+    input:-ms-input-placeholder{
+        padding-left: 4vw;
+        color: #ffffff; opacity:1;
+    }
+    input::-webkit-input-placeholder{
+        padding-left: 4vw;
+        color: #ffffff; opacity:1;
+    }    
+    button{
+        width: 78vw;
+        height: 7vh;
+        border-radius: 10px;
+        border: 1px solid rgba(252,250,250,0.52);
+        display: block;
+        margin: auto;
+        background-color: rgba(255,255,255,0.17);
+        color: #ffffff;
+        font-size: 16px;
+    }
+        #email,#password1,#password2,#userName,button{
+        margin-top: 10px;
+    }
+.bottom{
+	width: 100vw;
+    height: 7vh;
+    background: rgba(123,200,168,0.8);
+    box-shadow: 2px 0 0 0 #eee;
+    /*margin-bottom: 0px;*/
+    /*position: absolute;*/
+    top: 93vh;
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+}.ben{
+	line-height: 7vh;
+	text-align: center;
+	font-size: 1.2em;
+}a{
+	text-decoration: none;
+	color: white;
+}   
+.footer{
+	background: rgba(123,200,168,0.8);
+	text-align: center;
+	font-size: 1.3em;
+}

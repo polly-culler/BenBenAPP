@@ -1,0 +1,174 @@
+/* let banner name float left*/
+a{
+    text-decoration: none;
+    color: #8a8a8a;
+}
+.banner p{
+    float: left;
+    margin-left: 3vw;
+}
+#user-add img{
+    height: 4vh;
+    line-height: 7vh;
+    padding-top: 1.5vh;
+    margin-left: 38vw;
+}
+#setting img{
+    height: 3vh;
+    display: block;
+    margin-top: -3.5vh;
+    margin-left: 88vw;
+}
+.user{
+    position: fixed;
+    top: 7vh;
+    width: 100vw;
+    height: 21vh;
+    background: #fff;
+    /*box-shadow: 2px 0 0 0 #9E9E9E inset;*/
+}
+.user-photo img{
+    position: fixed;
+    top:8.5vh;
+    width: 18vw;
+    height: 10vh;
+    float: left;
+    border-radius: 50%;
+    margin-left: 9vw;
+}
+.user-about{
+    position: fixed;
+    left: 35vw;
+    top: 7.5vh;
+    background: #fff;
+    float: left;
+
+}
+.user-about-col1{
+    position: fixed;
+    font-size: 1.17em;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+}
+    .user-post-num{
+        margin-left: 5vw;
+    }
+    .user-follower-num{
+        margin-left: 8vw;
+    }
+    .user-following-num{
+        margin-left: 8vw;
+    }
+.user-about-col2{
+    display: block;
+    position: fixed;
+    top: 12vh;
+    font-size: 0.83em;
+    color: #8a8a8a;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+    .user-post{
+        margin-left: 4vw;
+    }
+    .user-follower{
+        margin-left: 5.6vw;
+    }
+    .user-following{
+        margin-left: 6.4vw;
+    }
+.editProfile{
+    width: 52vw;
+    height: 4.5vh;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-top: 8.5vh;
+    margin-left: 35vw;
+}
+.editProfile p{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.7em;
+    display: block;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+/*user detail*/
+#top{
+    width: 100vw;
+    margin-top: 14vh;
+    position: fixed;
+    background: #ffffff;
+    box-shadow: 0 0 0.3vh #eee;
+}
+#top span{
+    width:40vw;
+}
+#top span:nth-child(1){
+    float: left;
+}
+#top span:nth-child(2){
+    float: right;
+}
+#detail,#like{
+    width: 40vw;
+}
+#detail img{
+    padding-top: 1vh;
+    margin-left: 25vw;
+}
+#like img{
+    padding-top: 1vh;
+}
+#detail img,
+#like img{
+    height: 5vh;
+}
+.show ul{
+    margin: 0;
+    margin-top: 19.2vh;
+    list-style: none;
+    padding: 0;
+}
+.show ul li{
+    float: left;
+    height: 33.33vh;
+    /*width: 9vw;*/
+    margin-left: 2.5vw;
+    margin-top: 2vh;
+    border-radius: 5px;
+}
+.show ul li img{
+    height: 33.33vh;
+    width: 90.5vw;
+    border-radius: 5px;
+}
+.show ul li:nth-child(1){
+    background: #76DEA3;
+}
+.show ul li:nth-child(2){
+    background: #BAF1AE;
+}
+.show ul li:nth-child(3){
+    background: #76DEA3;
+}
+.show ul li:nth-child(4){
+    background: #BAF1AE;
+}
+.box{
+    width: 90vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+}
+#bottom{
+    margin-top: 2vh;
+}
+.bottom div{
+    width: 90vw;
+    /*margin-top: -4.2  vh;*/
+    display: none;
+}
+.bottom .show{
+    display: block;
+}
+.action{}

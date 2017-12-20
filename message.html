@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!-- modal.css -->
+  <link rel="stylesheet" type="text/css" href="css/modal.css">
+
+  <!-- message.css -->
+  <link rel="stylesheet" type="text/css" href="css/message.css">
+
+  <!-- fa  -->
+  <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+ -->
+  <!-- font -->
+  <link href='http://fonts.font.im/css?family=Roboto+Condensed:400,300italic' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+  <!-- 信息回复中心 -->
+  <div class="contain">
+    <div class="banner">
+      <a href="index.html"><img src="img/message/back.png"></a>
+      <p>消息</p>
+    </div>
+    <!-- body -->
+    <div class="body">
+      <!-- 联系人 -->
+      <div class="container clearfix">
+        <div class="people-list" id="people-list">
+          <!-- 搜索框 -->
+          <div class="search">
+            <input type="text" placeholder="search">
+            <i class="fa fa-search">
+          </div>
+          <!-- 联系人详情 -->
+          <ul class="list">
+            <li class="clearfix">
+              <a href="messageDetail.html">
+                <img src="https://wx3.sinaimg.cn/mw690/006olFJaly1fmhm09nos0j31hc18ge81.jpg" alt="avatar">
+                <div class="about">
+                  <div class="name">Mike Thomas</div>
+                  <div class="status">
+                    <i class="fa fa-circle online">online</i>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="clearfix">
+              <a href="messageDetail.html">
+                <img src="https://wx1.sinaimg.cn/mw690/006olFJaly1fmhm0a8si9j31hc0zgkjl.jpg" alt="avatar">
+                <div class="about">
+                  <div class="name">so darling。</div>
+                  <div class="status">
+                    <i class="fa fa-circle online">online</i>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="clearfix">
+              <a href="messageDetail.html">
+                <img src="https://wx2.sinaimg.cn/mw690/006olFJaly1fmhm09jqk1j31hc0zgnpa.jpg" alt="avatar">
+                <div class="about">
+                  <div class="name">my、zyd</div>
+                  <div class="status">
+                    <i class="fa fa-circle online">online</i>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="clearfix">
+              <a href="messageDetail.html">
+                <img src="https://wx1.sinaimg.cn/mw1024/005vf0ocgy1fme269559sj30rs0rsq56.jpg" alt="avatar">
+                <div class="about">
+                  <div class="name">Exuseeme</div>
+                  <div class="status">
+                    <i class="fa fa-circle online">online</i>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="clearfix">
+              <a href="messageDetail.html">
+                <img src="https://wx3.sinaimg.cn/mw1024/005vf0ocgy1fme26nog7nj30rs0rsacq.jpg" alt="avatar">
+                <div class="about">
+                  <div class="name">Amnesia nicotine</div>
+                  <div class="status">
+                    <i class="fa fa-circle online">online</i>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="clearfix">
+              <a href="messageDetail.html">
+                <img src="https://wx1.sinaimg.cn/mw1024/005vf0ocgy1fme26qyucoj30rs0rsdjc.jpg" alt="avatar">
+                <div class="about">
+                  <div class="name">sunmer，~</div>
+                  <div class="status">
+                    <i class="fa fa-circle online">online</i>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- <script id="message-template" type="text/x-handlebars-template">
+    <li class="clearfix">
+      <div class="message-data align-right">
+        <span class="message-data-time" >{{time}}, Today</span> &nbsp; &nbsp;
+        <span class="message-data-name" >Olia</span> <i class="fa fa-circle me"></i>
+      </div>
+      <div class="message other-message float-right">
+        {{messageOutput}}
+      </div>
+    </li>
+  </script>
+
+  <script id="message-response-template" type="text/x-handlebars-template">
+    <li>
+      <div class="message-data">
+        <span class="message-data-name"><i class="fa fa-circle online"></i> Vincent</span>
+        <span class="message-data-time">{{time}}, Today</span>
+      </div>
+      <div class="message my-message">
+        {{response}}
+      </div>
+    </li>
+  </script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+  <script src="js/message.js"></script>
+</body>
+</html>

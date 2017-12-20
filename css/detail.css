@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+     font-family: 'Roboto Condensed', sans-serif;
+
+}
+.banner{
+    text-align: center;
+    color: #2c2c2c;
+    /*background:-webkit-gradient(linear, 0 0, 0 bottom, from(rgb(20,208,160)), to(rgb(215,247,180)));*/
+    background: #FFFFFF;
+    height: 7vh;
+    width: 100vw;
+    line-height: 0.5vh;
+    box-shadow:0 0 2px 0 #9E9E9E;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: fixed;
+    top: 0;
+    font-size: 1.17em;
+}
+.body{
+    margin-top: 7.2vh;
+    height: 80vh;
+}
+
+
+/*底部栏*/
+.footer{
+    width: 100%;
+    height: 7vh;
+    background: #FFFFFF;
+    box-shadow: 2px 0 0 0 #eee;
+    /*margin-bottom: 0px;*/
+    position: fixed;
+    top: 93vh;
+    text-align: center;
+}
+.footer a{
+    color: #2c2c2c;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: #76DEA3;
+}
+.banner a{
+    width: 6vw;
+    display: block;
+    float: left;
+}
+#pre{
+    margin-left: 6vw;
+    padding-top: 1.5vh;
+}
+#next{
+    margin-left: 87vw;
+    /*margin-top: -5vh;*/
+}
+#nextLink{
+    margin-top: -5vh;
+}
+.banner p{
+    margin-left: 15vw;
+    width: 70vw;
+}
+.banner a img{
+    width: 6vw;
+    height: 4vh;
+}
+
+/*body*/
+.postPerson{
+    width: 80vw;
+    height: 7vh;
+    margin: 0 auto;
+}
+#calender img{
+    width: 15vw;
+    height: 10vh;
+    display: block;
+    margin-top: 10vh;
+    margin-left: 15vw;
+}
+
+.place,.time{
+    color: #76DEA3;
+    font-size: 24px;
+    display: block;
+
+}
+.place{
+    margin-left: 50vw;
+    margin-top: -10vh;
+}
+.time{
+    margin-left: 43vw;
+    margin-top: -4vh;
+}
+.col1{
+    padding-bottom: 2vh;
+    border-bottom: 1px solid #eee ;
+}
+.col2{
+    width: 80vw;
+    margin: 0 auto;
+}
+.quotes img{
+    width: 5vw;
+    height: 5vh;
+}
+/*#quotes-left img{
+    margin-left: 10vw;
+}*/
+#quotes-right img{
+    margin-left: 80vw;
+}
+
+.theContext img{
+    width: 75vw;
+    height: 30vh;
+    margin-left: 5vw;
+}
+.theContext p{
+    margin-left: 5vw;
+    color: #2c2c2c;
+}
+
+#footer{
+    position: relative;
+}
+.thePostPersonName{
+    margin-bottom: 2vh;
+    position: absolute;
+    top: 90vh;
+    left: 70vw;
+}
+.thePostPersonName span:nth-child(1){
+    font-size: 0.9em;
+}
+.thePostPersonName span:nth-child(2){
+    font-size: 0.8em;
+}
+.thePostPersonName span:nth-child(2) a{
+    text-decoration: none;
+    color: #2c2c2c;
+}
+.thePostPersonName span:nth-child(2) a:hover{
+    color: #76DEA3;
+}

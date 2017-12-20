@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta charset="utf-8" />
+    <!-- modal.css -->
+     <link rel="stylesheet" type="text/css" href="css/modal.css"> 
+
+    <!-- login.css -->
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+
+    <!-- 奔奔的字体 -->
+    <link href='http://fonts.font.im/css?family=Roboto+Condensed:400,300italic' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<div class="contain">
+		
+   	 <div class="login">
+        <div class="col1">
+            <span class="title">BenBen</span>
+            <input id="userName" type="email" name="" placeholder="用户名" onblur=isEmail(this.value)>
+            <input id="password" type="text" name="" maxlength="12" placeholder="密码">
+            <button id="loginButton" type="submit" ><a href="index.html">登陆</a></button>
+            <span id="forgot">忘记了登陆信息？<a id="getHelp">获取登陆帮助</a></span>
+        </div>
+        <div class="col2">
+            <hr id="hr1">
+            <span id="or">或</span>
+            <hr id="hr2">
+            <span class="loginWithQQ"><img src="img/login/qq.png"></span>
+            <span class="loginWithWeChat"><img src="img/login/wechat.png"></span>
+            <span class="loginWithWeibo"><img src="img/login/weibo.png"></span>
+        </div>
+        <div class="footer">
+            <p>还没有账户？<a class="signUp" href="signUp.html">注册</a>。</p>
+        </div>
+    
+     </div>
+	</div>
+
+    <!-- login.js -->
+    <script src="js/login.js"></script>
+</body>
+</html>

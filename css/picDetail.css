@@ -1,0 +1,123 @@
+a{
+	text-decoration: none;
+}
+ul {
+   
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+    overflow: hidden;
+    min-width: 100vw;
+}
+ul li {
+	margin-left: 2.5vw;
+    float: left;
+    position: relative;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+a, a:link, a:visited {
+    color: #76DEA3;
+    text-decoration: none;
+    -webkit-transition: color .3s ease;
+    -moz-transition: color .3s ease;
+    -o-transition: color .3s ease;
+    transition: color .3s ease;
+}
+.cover-trip-pic, .cover-trip-pic li {
+    width: 95vw;
+    height: 170px;
+    position: relative;
+    left: -17px;
+    color: #fff;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(/static/img/default_trip_cover_205px.png);
+}
+
+div {
+    display: block;
+}
+.cover-trip-pic ol li {
+    margin: 1px;
+    overflow: hidden;
+    float: left;
+    /* background-size: cover; */
+    background-position: center center;
+}
+
+.cover-trip-info {
+    position: absolute;
+    bottom: 0;
+    left: 3vw;
+    width: 100%;
+    height: 100%;
+    padding: 112px 20px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(/static/img/scenic/cover_bg.png) bottom repeat-x;
+    text-shadow: 0 2px 4px rgba(0,0,0,.7);
+}
+.one-row-ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+dt {
+    display: block;
+}
+.cover-trip-info dt b {
+    font-size: 20px;
+    margin-right: 14px;
+}
+.cover-trip-info dt span {
+    font-size: 12px;
+}
+.cover-trip-info dt i {
+    font-style: italic;
+    margin-right: 3px;
+    font-weight: 700;
+}
+.cover-trip-info dd {
+    margin-top: 9px;
+    font-size: 12px;
+}
+.one-row-ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.cover-trip-total {
+    margin-right: 15px;
+}
+.cover-trip-data {
+    color: #b0b0b0;
+    text-align: center;
+    padding: 14px 0;
+    border-left: 1px solid #E7E7E7;
+    border-right: 1px solid #E7E7E7;
+    border-bottom: 2px solid #E7E7E7;
+    -webkit-bottom-right-border-radius: 4px;
+    -webkit-bottom-left-border-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.cover-trip-data span {
+    display: inline-block;
+    font-size: 12px;
+    width: 33%;
+    border-right: 1px solid #E7E7E7;
+}
+.cover-trip-data b {
+    font-weight: 700;
+    margin-left: 3px;
+}
